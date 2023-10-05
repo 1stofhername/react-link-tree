@@ -1,7 +1,11 @@
+import Link from "./Link";
+
 export default function LinkTree () {
+    const linkList = ["hello", "hi", "yea"];
+
     return(
         <div className="link-tree-div">
-            <h1>I'm a link tree!</h1>
+            {linkList.map((link)=><Link key={link} link={link} />)}
         </div>
     )
 };
