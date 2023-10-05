@@ -20,8 +20,9 @@
 .link-tree-div {
   background-color: black;
   opacity: 50%;
-  width: 50%;
+  width: fit-content;
   height:fit-content;
+  padding: 0px 20px 0px 20px;
 }
 
 h1 {
