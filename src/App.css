@@ -2,6 +2,8 @@
   text-align: center;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  height:100vh;
 }
 
 .App-header {
@@ -19,6 +21,7 @@
   background-color: black;
   opacity: 50%;
   width: 50%;
+  height:fit-content;
 }
 
 h1 {
