@@ -1,4 +1,5 @@
 import LinkTree from './LinkTree';
+import ProfileImage from './ProfileImage';
 import logo from './logo.svg';
 import './App.css';
 
@@ -10,6 +11,7 @@ function App() {
         <h2>A Tiny Life On Wheels</h2>
       </div>
       <LinkTree />
+      <ProfileImage />
     </div>
   );
 }
