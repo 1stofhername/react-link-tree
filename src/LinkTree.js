@@ -1,7 +1,9 @@
-import Link from "./Link";
+import link from './links.json';
+import Link from './Link';
 
 export default function LinkTree () {
-    const linkList = ["hello", "hi", "yea"];
+    const linkList = link;
+    console.log(linkList);
 
     return(
         <div className="link-tree-div">
