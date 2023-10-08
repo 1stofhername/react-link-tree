@@ -3,11 +3,12 @@ import Link from './Link';
 
 export default function LinkTree () {
     const linkList = link;
-    console.log(linkList);
 
     return(
         <div className="link-tree-div">
-            {linkList.map((link)=><Link key={link} link={link} />)}
+            {linkList.map(link=>
+                <Link key={link} link={link} />
+            )}
         </div>
     )
 };
