@@ -1,5 +1,6 @@
 export default function Link (linkObject) {
-    console.log(linkObject.link)
+   linkObject = { };
+   console.log(id);
   return (
     <div className="link-item-div">
       <h1>I'm a link!</h1>
