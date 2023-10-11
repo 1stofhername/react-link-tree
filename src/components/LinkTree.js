@@ -1,8 +1,8 @@
-import link from '../data/data.json';
+import links from '../data/data.json';
 import Link from './Link';
 
 export default function LinkTree () {
-    const linkList = link;
+    const linkList = links;
 
     return(
         <div className="link-tree-div">
