@@ -1,7 +1,6 @@
 import LinkTree from './LinkTree';
 import ProfileImage from './ProfileImage';
-import logo from './logo.svg';
-import './App.css';
+import '../App.css';
 
 
 function App() {
