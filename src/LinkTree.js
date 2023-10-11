@@ -7,7 +7,7 @@ export default function LinkTree () {
     return(
         <div className="link-tree-div">
             {linkList.map(link=>
-                <Link key={link} link={link} />
+                <Link key={link.id} link={link} />
             )}
         </div>
     )

@@ -1,9 +1,9 @@
 export default function Link (linkObject) {
-   linkObject = { };
+   const { id, platform, url } = linkObject.link
    console.log(id);
   return (
     <div className="link-item-div">
-      <h1>I'm a link!</h1>
+      <a href={url} ><h1>{platform}</h1></a>
     </div>
   )  
 };
