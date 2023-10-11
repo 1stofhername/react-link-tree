@@ -1,4 +1,4 @@
-import link from '../data/links.json';
+import link from '../data/data.json';
 import Link from './Link';
 
 export default function LinkTree () {
