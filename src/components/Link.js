@@ -3,7 +3,7 @@ export default function Link (linkObject) {
    console.log(id);
   return (
     <div className="link-item-div">
-      <a href={url} target="_blank" rel="noopener norefferer" ><h1>{platform}</h1></a>
+      <a href={url} target="_blank" rel="noopener norefferer" ><button>{platform}</button></a>
     </div>
   )  
 };

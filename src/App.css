@@ -24,12 +24,19 @@
 }
 
 .link-tree-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   background-color: black;
   opacity: 50%;
   width:100%;
-  height:50vh;
+  height:40vh;
 }
 
 h1 {
   color:white;
+}
+
+button {
+  padding:10px;
 }
