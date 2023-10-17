@@ -1,14 +1,13 @@
 import LinkTree from './LinkTree';
 import ProfileImage from './ProfileImage';
+import Header from './Header';
 import '../App.css';
 
 
 function App() {
   return (
     <div className="App">
-      <div className="App-header">
-        <h2>A Tiny Life On Wheels</h2>
-      </div>
+      <Header />
       <LinkTree />
       <ProfileImage />
     </div>
