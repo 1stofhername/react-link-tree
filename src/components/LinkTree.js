@@ -4,15 +4,12 @@ import Link from './Link';
 export default function LinkTree () {
     const linkList = links;
 
-    return(
-        <div>
-        
+    return(  
         <div className="link-tree-div">
-        <div className='overlay'></div>
+            <div className='overlay'></div>
             {linkList.map(link=>
                 <Link key={link.id} link={link} />
             )}
-        </div>
         </div>
     )
 };
