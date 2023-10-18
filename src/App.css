@@ -11,6 +11,8 @@
   position: relative;
   background-image: url('../public/header.png');
   background-size: 21em;
+  background-position: right;
+  background-repeat: no-repeat;
   min-height: 30vh;
   width: 50vh;
   display: flex;
@@ -69,6 +71,11 @@ button {
 }
 
 p {
+  margin: 0px;
+  font-family: 'Oswald', sans-serif;
+}
+
+p.button-text {
   margin: 0px;
   font-family: 'Oswald', sans-serif;
 }

@@ -4,7 +4,7 @@ export default function Link (linkObject) {
   return (
     <div className="link-item-div">
       <a href={url} target="_blank" rel="noopener norefferer" >
-        <button><p>{platform}</p></button>
+        <button><p className="button-text">{platform}</p></button>
       </a>
     </div>
   )  
