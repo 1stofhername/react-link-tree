@@ -9,8 +9,8 @@
 
 .App-header {
   position: relative;
-  background-image: url('../public/header.jpg');
-  background-size: 20em;
+  background-image: url('../public/header.png');
+  background-size: 21em;
   min-height: 30vh;
   width: 50vh;
   display: flex;
@@ -58,15 +58,19 @@ h2 {
 
 button {
   background: none;
-  border: 2px solid;
+  border: 2px solid #d5b02a;
   line-height: 1;
   margin: 0.5em;
   padding: 1em 2em;
-  font-family: 'Oswald', sans-serif;
   color:white;
   transition: 0.25s;
   perspective: 230px;
   cursor:pointer;
+}
+
+p {
+  margin: 0px;
+  font-family: 'Oswald', sans-serif;
 }
 
 button:hover, 
