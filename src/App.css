@@ -6,7 +6,7 @@
   height:100vh;
 }
 
-.App-header {
+#header-div {
   position: relative;
   background-image: url('../public/header.png');
   background-size: 21em;
@@ -25,7 +25,15 @@
   border-color: white;
 }
 
-.link-tree-div {
+#profile-image-div {
+  height:25vh;
+  width:50vh;
+  background-image: url('../public/profile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#link-tree-div {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -93,12 +101,6 @@ button:focus {
   0% { box-shadow: 0 0 0 0; }
 }
 
-.profile-image-div {
-  height:25vh;
-  width:50vh;
-  background-image: url('../public/profile.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 
