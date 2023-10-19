@@ -3,7 +3,7 @@ export default function Header () {
         <div className="overlay-container" id="header-div">
             <div className="overlay"></div>
             <div className="title-div">
-                <h2>A Tiny Life On Wheels</h2>
+                <h1>A Tiny Life On Wheels</h1>
             </div>
       </div>
     )

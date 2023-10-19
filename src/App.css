@@ -8,14 +8,10 @@
 
 #header-div {
   background-image: url('../public/header.png');
-  background-size: 21em;
+  background-size: cover;
   background-position: right;
   min-height: 30vh;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  font-family: 'Bebas Neue', sans-serif;
 }
 
 #profile-image-div {
@@ -25,7 +21,6 @@
 }
 
 #link-tree-div {
-  flex-direction: column;
   justify-content: space-around;
   background-image: url('../public/div-bckgrnd.png');
   background-color: white;
@@ -35,8 +30,10 @@
 
 .overlay-container {
   width: 50vh;
+  align-items: center;
   position: relative;
   display: flex;
+  flex-direction: column;
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-style: inset;
@@ -56,11 +53,13 @@
   position: relative;
 }
 
-h2 {
+h1 {
   color:white;
   background-color: rgba(0, 0, 0, 0.5);
   padding-right:.2em;
   padding-left:.2em;
+  font-size: calc(3em);
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 button {
