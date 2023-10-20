@@ -15,9 +15,11 @@
 }
 
 #profile-image-div {
-  height:25vh;
-  width:50vh;
+  height:20vh;
+  width:20vh;
   background-image: url('../public/profile.jpg');
+  border-radius: 50%;
+  border: inset 2px rgba(213, 176, 42, 1);
 }
 
 #link-tree-div {
