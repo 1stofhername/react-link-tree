@@ -1,21 +1,25 @@
 [
     {
         "id":1,
+        "call-to-action":"Watch adventure videos, reviews, & tutorials.",
         "platform":"youtube",
         "url": "https://www.youtube.com/channel/UCfYxezJryej-DGVlfWsi8mA"
     },
     {
         "id":2,
+        "call-to-action":"One stop shop for all things skoolie.",
         "platform":"website",
         "url":"https://www.buslifepnw.com"
     },
     {
         "id":3,
+        "call-to-action":"Get a glimpse into my tiny life on wheels",
         "platform":"instagram",
         "url":"https://www.instagram.com/bumblebus_pnw/"
     },
     {
         "id":4,
+        "call-to-action":"help me create",
         "platform": "patreon",
         "url":"https://www.patreon.com/thebumblebus"
     }
