@@ -30,6 +30,12 @@
   height:40vh;
 }
 
+#profile-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .overlay-container {
   width: 50vh;
   align-items: center;
