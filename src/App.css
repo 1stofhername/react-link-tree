@@ -63,7 +63,7 @@
 
 p.title {
   color:white;
-  stroke-width: 10px;
+  
   background-color: rgba(0, 0, 0, 0.5);
   padding-right:.2em;
   padding-left:.2em;
@@ -104,6 +104,16 @@ button:focus {
   0% { box-shadow: 0 0 0 0; }
 }
 
+.attributes-container{
+  display: flex;
+  flex-direction: column;
+  width:fit-content;
+  height: 1.5em;
+  overflow: hidden;
+}
 
-
-
+.attributes-text{
+  /* transform: translateY(-47px); */
+  /* transform: translateY(-25px); */
+  
+}
