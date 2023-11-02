@@ -113,7 +113,21 @@ button:focus {
 }
 
 .attributes-text{
-  /* transform: translateY(-47px); */
-  /* transform: translateY(-25px); */
-  
+  animation: switch 7s infinite;
+}
+
+@keyframes switch {
+  0%{
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-25px);
+  }
+  50% {
+    transform: translateY(-47px);
+
+  }
+  75% {
+    transform: translateY(-25px);
+  }
 }
