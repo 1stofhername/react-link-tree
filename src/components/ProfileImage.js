@@ -3,6 +3,10 @@ import { useState } from "react";
 export default function ProfileImage () {
     const [ isVisible, setIsVisible ] = useState(false);
 
+    function toggleIsVisible () {
+        setIsVisible((isVisible)=> !isVisible);
+    }
+
     return(
         <div id='profile-image-container'>
             <div className="profile-text-container">
@@ -20,7 +24,7 @@ export default function ProfileImage () {
             { isVisible ?
                 <div className="overlay-container" id="profile-image-back-div" ></div>:null
                 }
-                
+
             </div>
             
         </div>
