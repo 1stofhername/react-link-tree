@@ -20,11 +20,11 @@ export default function ProfileImage () {
                 </div>
                 <p>builder.</p>
             </div>
-            <div className="profile-image-wrapper">
-            <div onPointerEnter={toggleIsVisible} onPointerLeave={toggleIsVisible} className="overlay-container" id="profile-image-div"></div>
+            <div onPointerEnter={toggleIsVisible} onPointerLeave={toggleIsVisible} className="profile-image-wrapper">
+            <div className="overlay-container" id="profile-image-div"></div>
             
             { isVisible ?
-                <div className="overlay-container" id="profile-image-back-div" ></div>:null
+                <div className="overlay-container" id="profile-image-back-div" ><p>Get In Touch</p></div>:null
                 }
 
             </div>
