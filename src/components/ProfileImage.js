@@ -16,7 +16,11 @@ export default function ProfileImage () {
             </div>
             <div className="profile-image-wrapper">
             <div className="overlay-container" id="profile-image-div"></div>
-            <div className="overlay-container" id="profile-image-back-div" ></div>
+            
+            { isVisible ?
+                <div className="overlay-container" id="profile-image-back-div" ></div>:null
+                }
+                
             </div>
             
         </div>
