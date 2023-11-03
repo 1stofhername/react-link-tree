@@ -8,7 +8,7 @@ export default function ProfileImage () {
                 <p className="text">Alicia Parris</p> 
                 <div className="attributes-container">
                 <div className="attributes-text" >
-                    <p>community</p><p>tiny-home</p><p>software</p>
+                    <p className="subtitle">community</p><p className="subtitle">tiny-home</p><p className="subtitle">software</p>
                 </div> 
                 </div>
                 <p>builder.</p>

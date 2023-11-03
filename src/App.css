@@ -122,6 +122,9 @@ button:focus {
 
 .attributes-text{
   animation: switch 7s infinite;
+  text-transform: uppercase;
+  color:rgba(213, 176, 42, 1);
+
 }
 
 @keyframes switch {
