@@ -14,10 +14,26 @@
   justify-content: center;
 }
 
+.profile-image-wrapper {
+  display:flex;
+  justify-content: space-around;
+}
+
 #profile-image-div {
+  position:absolute;
   height:20vh;
   width:20vh;
   background-image: url('../public/profile.jpg');
+  border-radius: 50%;
+  border: inset 2px rgba(213, 176, 42, 1);
+}
+
+#profile-image-back-div {
+  position:absolute;
+  background-color: rgba(213, 176, 42, 1);
+  height:20vh;
+  width:20vh;
+  border-radius: 50%;
   border-radius: 50%;
   border: inset 2px rgba(213, 176, 42, 1);
 }

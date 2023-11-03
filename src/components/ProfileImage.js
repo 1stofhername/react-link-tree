@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 export default function ProfileImage () {
+    const [ isVisible, setIsVisible ] = useState(false);
 
     return(
         <div id='profile-image-container'>
@@ -13,7 +14,11 @@ export default function ProfileImage () {
                 </div>
                 <p>builder.</p>
             </div>
+            <div className="profile-image-wrapper">
             <div className="overlay-container" id="profile-image-div"></div>
+            <div className="overlay-container" id="profile-image-back-div" ></div>
+            </div>
+            
         </div>
     )
 }
