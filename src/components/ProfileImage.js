@@ -4,7 +4,9 @@ export default function ProfileImage () {
     const [ isVisible, setIsVisible ] = useState(false);
 
     function toggleIsVisible () {
-        setIsVisible((isVisible)=> !isVisible);
+        setTimeout(()=> {
+            setIsVisible((isVisible)=> !isVisible);
+        }, 500);
     }
 
     return(
@@ -19,10 +21,10 @@ export default function ProfileImage () {
                 <p>builder.</p>
             </div>
             <div className="profile-image-wrapper">
-            <div className="overlay-container" id="profile-image-div"></div>
+            <div onPointerEnter={toggleIsVisible} onPointerLeave={toggleIsVisible} className="overlay-container" id="profile-image-div"></div>
             
             { isVisible ?
-                <div onPointerEnter={toggleIsVisible} className="overlay-container" id="profile-image-back-div" ></div>:null
+                <div className="overlay-container" id="profile-image-back-div" ></div>:null
                 }
 
             </div>
