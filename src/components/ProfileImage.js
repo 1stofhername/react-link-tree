@@ -22,7 +22,7 @@ export default function ProfileImage () {
             <div className="overlay-container" id="profile-image-div"></div>
             
             { isVisible ?
-                <div className="overlay-container" id="profile-image-back-div" ></div>:null
+                <div onPointerEnter={toggleIsVisible} className="overlay-container" id="profile-image-back-div" ></div>:null
                 }
 
             </div>
