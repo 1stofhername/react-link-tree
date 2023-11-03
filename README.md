@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+Stretch goals 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Add get in touch button - email
+Add subscribe button to capture emails.
+Setup database
+Form what are you interested in ? 
+Genealogy podcast, buslife, technical stuff everything!
+Add contact and sub buttons
 
 ## Available Scripts
 
