@@ -1,3 +1,4 @@
+import { render } from "@testing-library/react";
 import { useState } from "react";
 
 export default function ProfileImage () {
@@ -15,18 +16,14 @@ export default function ProfileImage () {
                 <p className="text">Alicia Parris</p> 
                 <div className="attributes-container">
                 <div className="attributes-text" >
-                    <p className="subtitle">community</p><p className="subtitle">tiny-home</p><p className="subtitle">software</p>
+                    <p className="text">community</p><p className="text">tiny-home</p><p className="text">software</p>
                 </div> 
                 </div>
                 <p>builder.</p>
             </div>
             <div onPointerEnter={toggleIsVisible} onPointerLeave={toggleIsVisible} className="profile-image-wrapper">
-            <div className="overlay-container" id="profile-image-div"></div>
-            
-            { isVisible ?
-                <div className="overlay-container" id="profile-image-back-div" ><p>Get In Touch</p></div>:null
-                }
-
+                <div className="overlay-container" id="profile-image-div"></div>
+                <div className="overlay-container" id="profile-image-back-div" ><p className="subtitle">Get In Touch</p></div>
             </div>
             
         </div>

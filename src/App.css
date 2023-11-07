@@ -16,7 +16,8 @@
 
 .profile-image-wrapper {
   display:flex;
-  justify-content: space-around;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 #profile-image-div {
@@ -29,11 +30,11 @@
 }
 
 #profile-image-back-div {
-  position:absolute;
+  display:flex;
+  justify-content: space-around;
   background-color: rgba(213, 176, 42, 1);
   height:20vh;
   width:20vh;
-  border-radius: 50%;
   border-radius: 50%;
   border: inset 2px rgba(213, 176, 42, 1);
 }
@@ -79,7 +80,6 @@
 
 p.title {
   color:white;
-  
   background-color: rgba(0, 0, 0, 0.5);
   padding-right:.2em;
   padding-left:.2em;
@@ -107,6 +107,13 @@ p {
 p.button-text {
   margin: 0px;
   font-family: 'Oswald', sans-serif;
+}
+
+p.subtitle {
+  color:white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: calc(2em);
+  text-transform: uppercase;
 }
 
 button:hover, 
