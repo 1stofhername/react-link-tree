@@ -17,7 +17,8 @@
 .profile-image-wrapper {
   display:flex;
   border-radius: 50%;
-  overflow: hidden;
+  transform-style: preserve-3d;
+  animation: flip 5s infinite, delay 2s linear infinite;
 }
 
 #profile-image-div {
@@ -27,16 +28,19 @@
   background-image: url('../public/profile.jpg');
   border-radius: 50%;
   border: inset 2px rgba(213, 176, 42, 1);
+  backface-visibility: hidden;
 }
 
 #profile-image-back-div {
   display:flex;
   justify-content: space-around;
-  background-color: rgba(213, 176, 42, 1);
+  background-color: rgba(255, 255, 255, 1);
   height:20vh;
   width:20vh;
   border-radius: 50%;
-  border: inset 2px rgba(213, 176, 42, 1);
+  border: inset 2px rgba(0, 0, 0, 0.75);
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
 }
 
 #link-tree-div {
@@ -116,6 +120,14 @@ p.subtitle {
   text-transform: uppercase;
 }
 
+p.black-subtitle {
+  color:rgba(0, 0, 0, 1);;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: calc(2em);
+  text-transform: uppercase;
+}
+
+
 button:hover, 
 button:focus {
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
@@ -163,5 +175,23 @@ button:focus {
   }
   75% {
     transform: translateY(-25px);
+  }
+}
+
+@keyframes flip {
+  0%, 100% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes delay {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(0);
   }
 }

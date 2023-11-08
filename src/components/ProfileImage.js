@@ -22,8 +22,8 @@ export default function ProfileImage () {
                 <p>builder.</p>
             </div>
             <div onPointerEnter={toggleIsVisible} onPointerLeave={toggleIsVisible} className="profile-image-wrapper">
+                <div className="overlay-container" id="profile-image-back-div" ><p className="black-subtitle">Connect</p></div>
                 <div className="overlay-container" id="profile-image-div"></div>
-                <div className="overlay-container" id="profile-image-back-div" ><p className="subtitle">Get In Touch</p></div>
             </div>
             
         </div>

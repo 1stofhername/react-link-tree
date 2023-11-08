@@ -6,6 +6,7 @@ Setup database
 Form what are you interested in ? 
 Genealogy podcast, buslife, technical stuff everything!
 Add contact and sub buttons
+On click changes mid section to form
 
 ## Available Scripts
 
